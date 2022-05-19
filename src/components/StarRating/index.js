@@ -20,7 +20,7 @@ const StarRating = ({ count }) => {
         }
         return r
     }, [count])
-    return (<ul class="card-body-stars u-clearfix">
+    return (<ul className="card-body-stars u-clearfix">
         {stars.map((star) => {
             return <li>{star}</li>
         })
